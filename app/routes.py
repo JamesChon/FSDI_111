@@ -13,4 +13,7 @@ def index():                  # view function
     }
     return me                 # When you return a dict from a view function, it becomes a JSON  
 
- 
+# @app.post()
+# @app.put()
+# @app.patch()
+# @app.delete()
